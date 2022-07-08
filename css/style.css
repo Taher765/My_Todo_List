@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+}
+
+.todo-list {
+  max-width: 600px;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #f6f6f6;
+}
+
+#btn-task {
+  width: 155px;
+}
+
+.tasks {
+  max-height: 450px;
+  overflow-y: auto;
+  padding: 5px;
+}
+
+.tasks::-webkit-scrollbar {
+  width: 10px;
+}
+
+.tasks::-webkit-scrollbar-track {
+  background-color: #0d6dfd70;
+  border-radius: 10px;
+}
+
+.tasks::-webkit-scrollbar-thumb {
+  background-color: #0d6efd;
+  border-radius: 10px;
+}
+
+.task {
+  box-shadow: 2px 2px 3px rgb(0 0 0 / 20%);
+  background-color: #fff;
+}
+
+.task.complet {
+  background-color: #60eb60
+}
+
+#completed,
+#updet,
+#delete {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 0;
+  padding: 0;
+}
